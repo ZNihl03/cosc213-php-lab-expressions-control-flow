@@ -1,4 +1,4 @@
-?php
+<?php
 $view = $_GET['view'] ?? 'times';
 function ints_from_csv(?string $s): ?array {
 if ($s === null || trim($s) === '') return null;
