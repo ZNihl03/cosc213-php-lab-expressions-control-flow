@@ -37,4 +37,3 @@ value="<?= htmlspecialchars($score !== null ? (string)$score
 </body>
 </html>
 
-//lab 4 remove
