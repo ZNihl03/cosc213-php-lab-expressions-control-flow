@@ -3,10 +3,11 @@
 $role = $_GET['role'] ?? 'guest';
 $day = $_GET['day'] ?? 'Mon';
 $code = (int)($_GET['code'] ?? 200);
+$lang = $_GET['lang'] ?? 'en';
 // A) Role greeting with if/elseif/else
 if ($role === 'admin') {
 echo "Welcome, admin\n";
-} elseif ($role === 'editor') {
+} elseif ($role === 'zero') {
 echo "Welcome, editor\n";
 } else {
 echo "Welcome, user\n";
