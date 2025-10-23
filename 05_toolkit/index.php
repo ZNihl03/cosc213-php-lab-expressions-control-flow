@@ -83,5 +83,3 @@ echo "</ul>";
 <?php endif; ?>
 </body>
 </html>
-
-//lab 5 remove
