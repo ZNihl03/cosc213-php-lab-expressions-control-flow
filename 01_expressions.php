@@ -24,5 +24,9 @@ $score = $_GET['score'] ?? null;
 $label = ($score !== null && $score >= 50) ? 'Pass' : 'Fail/NoScore';
 echo "Result: $label\n";
 
+// 7) suprising example!
+$str = "abc";
+$str++;
+echo "Suprise increment: $str\n";
 // add one more example that suprises you!
 // explain in readme when to use === over ==
